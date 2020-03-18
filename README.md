@@ -70,21 +70,21 @@ Just make sure of the following key aspects:
 
 ### 4. Arduino board set-up
 
-*Obtaining the source code*
+#### Obtaining the source code
 The source code needed to be uploaded to the Arduino board is located under the src folder of this repository, which you can directly download from github. All the relevant Arduino sketches are located there, no extra programming is necessary.
 
-*Connection with the LCD screen*
+#### Connection with the LCD screen
 The connection with the temperature sensor is handled in class **LCDShield**, which is completely made for you.
 If you investigate this Arduino sketch you will see a library coded to wrap the usage of the Arduino LCD KeyPad Shield.
 It is used to read the LCD buttons and write data to the screen.
 The header file (.h) defines the main functions and attributes related to the LCD and the implementation file (.cpp) implements the functions defined in the header file.
 
-*Connection with the motor*
+#### Connection with the motor
 The connection with the temperature sensor is handled in class **motor**, which is completely made for you.
 If you investigate this Arduino sketch you will see a library coded to wrap the usage of the motor. It is used to activate and desactivate the motor at a certain speed.
 The header file (.h) defines the main functions and attributes related to the motor and the implementation file (.cpp) implements the functions defined in the header file.
 
-*Connection with the temperature sensor*
+#### Connection with the temperature sensor
 The connection with the temperature sensor is handled in class **temperatureSensor**, which is completely made for you.
 If you investigate this Arduino sketch you will see that it depends on two well-known libraries, [DallasTemperature](https://milesburton.com/Dallas_Temperature_Control_Library) (A third party library capable of reading temperature values in an easy way.) and [OneWire](https://www.pjrc.com/teensy/td_libs_OneWire.html) (A third party library capable of accessing 1-wire devices.). 
 If you investigate this Arduino sketch you will see a library coded to wrap the usage of the temperature sensor.
