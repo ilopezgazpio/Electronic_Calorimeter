@@ -38,17 +38,17 @@ The instructions to assemble the project are divided in 5 steps
 
 ### 1. LCD Screen set-up
 There is a huge bunch of alternatives to connect a LCD display to the Arduino, we recommend making the following connections:
-(From) LCD analog 0 -> (into) Arduino Analog 0
-LCD 5 volt     ->   Arduino 5 volt
-LCD ground     ->   Arduino ground
-LCD Reset      ->   Arduino reset
-LCD digital 4* ->   Arduino digital 4 
-LCD digital 5  ->   Arduino digital 5
-LCD digital 6  ->   Arduino digital 6
-LCD digital 7  ->   Arduino digital 7
-LCD digital 8  ->   Arduino digital 8
-LCD digital 9  ->   Arduino digital 9
-LCD digital 10 ->   Arduino digital 10 
+1. (From) LCD analog 0 -> (into) Arduino Analog 0
+2. LCD 5 volt     ->   Arduino 5 volt
+3. LCD ground     ->   Arduino ground
+4. LCD Reset      ->   Arduino reset
+4. LCD digital 4* ->   Arduino digital 4 
+5. LCD digital 5  ->   Arduino digital 5
+6. LCD digital 6  ->   Arduino digital 6
+7. LCD digital 7  ->   Arduino digital 7
+8. LCD digital 8  ->   Arduino digital 8
+8. LCD digital 9  ->   Arduino digital 9
+9. LCD digital 10 ->   Arduino digital 10 
 
 *Starting from 0 it is the fourth pin on the front-right side of the LCD
 
