@@ -15,16 +15,67 @@ TBA
 The project is based on the following requirements:
 
 1. A **submersible temperature sensor** to read the temperature with decimal precision (SKU: DS18B20)
+
+<p align="center">
+  <img src="./media/TemperatureSensorCircuit/temperatureSensor.png" width="35%" height="auto"/>
+</p>
+
 2. A **4.5 volt motor** extracted from a milk vaporizer, but any 4.5 motor will do the work. We just need a motor that enables the agitation of liquids inside a thermally insulated vessel 
+
+<p align="center">
+  <img src="./media/motorCircuit/Motor.png" width="35%" height="auto"/>
+</p>
+
+
 3. A **thermally insulated vessel**
+
 4. A **liquid crystal display (LCD)**, used as user interface to easily collect the results of the experiments and to control the activation of the engine. (LCD KeyPad Shield SKU:DFR0009)
+
+<p align="center">
+  <img src="./media/LCDScreen/LCDDisplay.png" width="35%" height="auto"/>
+</p>
+
 5. The official **Arduino IDE** (Official Arduino programming application, can be downloaded from official site here:  [Arduino Official](https://www.arduino.cc/) )
+
 6. An **Arduino board** with corresponding power cable and USB cable (We tested with Arduino Uno Rev3 board)
+
+<p align="center">
+  <img src="./media/ArduinoBoard/ArduinoBoard.png" width="35%" height="auto"/>
+</p>
+
 7. An external **4.5 volt battery** (to be used in the motor circuit)
+
 8. The following **resistors**: 330 ohm resistor and a 4700 ohm resistor to be used in the motor and temperature sensor circuits respectively
+
+<p align="center">
+  <img src="./media/motorCircuit/330_ohm_resistor_motorCircuit.png" width="35%" height="auto"/>
+</p>
+
+<p align="center">
+  <img src="./media/TemperatureSensorCircuit/4700_ohm_resistor_temperatureCircuit.png" width="35%" height="auto"/>
+</p>
+
+
 9. A P2N2222AG **NPN transistor** (to be used in the motor circuit)
+
+<p align="center">
+  <img src="./media/motorCircuit/NPN_Transistor.png" height="35%" height="auto"/>
+</p>
+
+
 10. A 1N4148 **Diode** (to be used in the motor circuit)
+
+<p align="center">
+  <img src="./media/motorCircuit/Diode.png" width="35%" height="auto"/>
+</p>
+
+
 11. An **Electronic prototyping miniboard** is optional but surely will help build the circuit
+
+<p align="center">
+  <img src="./media/ArduinoBoard/miniboard.png" width="35%" height="auto"/>
+</p>
+
 13. Prototyping **cables**, if possible with red and blue/brown colors to help check correctness of circuits
 14. If you want the project to run standalone from the computer you will need a **9 volt battery** for the Arduino board (instead of having it plugged to the CPU through USB cable)
 
@@ -60,14 +111,21 @@ Note that you could just plug-in the LCD screen as a shield directly into the Ar
 
 ### 2. Motor set-up
 The electronic schematics neccesary to build this circuit are shown in the diagram below
-[TODO]  motorCircuit.jpg
+
+<p align="center">
+  <img src="./media/motorCircuit/motorCircuit.jpg" width="50%" height="auto"/>
+</p>
+
 
 Just make sure of the following key aspects:
 1. **Input pin** in the Arduino is the one used in code to initialize the motor class, for the default case, it is **pin number 3** 
 
 ### 3. Temperature sensor set-up
 The electronic schematics neccesary to build this circuit are shown in the diagram below 
-[TODO] temperatureSensorCircuit.png
+
+<p align="center">
+  <img src="./media/TemperatureSensorCircuit/temperatureSensorCircuit.png" width="65%" height="auto"/>
+</p>
 
 Just make sure of the following key aspects:
 1. Sensor yellow and red cables are connected with ground 
@@ -120,6 +178,19 @@ It consists of the relevant code to define the setup (The pins!) and the main lo
 
 ### 5. Run the project using the Arduino IDE
 You are done! Just enjoy your experimentation with the electronic calorimeter.
+
+<p align="center">
+  <img src="./media/Electronic_Calorimeter/IMG_20150612_153810.jpg" width="55%" height="auto"/>
+</p>
+
+<p align="center">
+  <img src="./media/Electronic_Calorimeter/IMG_20150612_153854.jpg" width="55%" height="auto"/>
+</p>
+
+<p align="center">
+  <img src="./media/Electronic_Calorimeter/IMG_20150612_153832.jpg" width="55%" height="auto"/>
+</p>
+
 
 ## Contact
 Any issues, bugs or updates please report to Inigo Lopez-Gazpio <inigo.lopezgazpio@deusto.es>
