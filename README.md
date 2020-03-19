@@ -20,11 +20,13 @@ The project is based on the following requirements:
 4. A **liquid crystal display (LCD)**, used as user interface to easily collect the results of the experiments and to control the activation of the engine. (LCD KeyPad Shield SKU:DFR0009)
 5. The official **Arduino IDE** (Official Arduino programming application, can be downloaded from official site here:  [Arduino Official](https://www.arduino.cc/) )
 6. An **Arduino board** with corresponding power cable and USB cable (We tested with Arduino Uno Rev3 board)
-7. An external **4.5 volt battery**
-8. The following **resistors**:
-9. A **transistor**
-10. An **Electronic prototyping miniboard** is optional but surely will help build the circuit
-11. Prototyping **cables**, if possible with red and blue/brown colors to help check correctness of circuits
+7. An external **4.5 volt battery** (to be used in the motor circuit)
+8. The following **resistors**: 330 ohm resistor and a 4700 ohm resistor to be used in the motor and temperature sensor circuits respectively
+9. A P2N2222AG **NPN transistor** (to be used in the motor circuit)
+10. A 1N4148 **Diode** (to be used in the motor circuit)
+11. An **Electronic prototyping miniboard** is optional but surely will help build the circuit
+13. Prototyping **cables**, if possible with red and blue/brown colors to help check correctness of circuits
+14. If you want the project to run standalone from the computer you will need a **9 volt battery** for the Arduino board (instead of having it plugged to the CPU through USB cable)
 
 Once all the components have been collected we can safely start the assembly of the electronic calorimeter.
 It should be noted that all parts of the built instrument were easily obtained for under 25€.
