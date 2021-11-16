@@ -9,7 +9,16 @@ The project is based on an ensemble of Arduino modules, such as: a submersible t
 
 If you use this software for academic research please cite the described paper:
 ```
-TBA
+@article{lopez2020constructing,
+  title={Constructing an Electronic Calorimeter That Students Can Use to Make Thermochemical and Analytical Determinations during Laboratory Experiments},
+  author={Lopez-Gazpio, Josu and Lopez-Gazpio, Inigo},
+  journal={Journal of Chemical Education},
+  volume={97},
+  number={12},
+  pages={4355--4360},
+  year={2020},
+  publisher={ACS Publications}
+}
 ```
 ## Requirements
 The project is based on the following requirements:
